@@ -1,6 +1,6 @@
 package com.fagawee.fadapter.lib;
 
-import android.annotation.IdRes;
+
 import android.view.View;
 
 import java.util.HashMap;

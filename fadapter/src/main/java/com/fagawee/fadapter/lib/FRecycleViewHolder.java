@@ -1,6 +1,5 @@
 package com.fagawee.fadapter.lib;
 
-import android.annotation.IdRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
@@ -16,7 +15,7 @@ public class FRecycleViewHolder extends RecyclerView.ViewHolder {
 
 
 
-    public <T> T getView(@IdRes int idres)
+    public <T> T getView( int idres)
     {
         if(itemView==null)
             throw new RuntimeException("layoutType 和 Layout 不匹配");
