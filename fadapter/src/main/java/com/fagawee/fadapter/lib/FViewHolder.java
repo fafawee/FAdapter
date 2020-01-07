@@ -37,7 +37,7 @@ public class FViewHolder {
         this.root = root;
     }
 
-    public <T> T getView(@IdRes int idres)
+    public <T> T getView( int idres)
     {
         if(root==null)
             throw new RuntimeException("layoutType 和 Layout 不匹配");

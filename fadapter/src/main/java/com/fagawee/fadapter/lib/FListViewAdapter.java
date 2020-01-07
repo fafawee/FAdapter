@@ -136,11 +136,11 @@ public abstract class FListViewAdapter<T> extends BaseAdapter{
         return convertView;
     }
 
-    public @LayoutRes  int getLayoutRes()
+    public  int getLayoutRes()
     {
         return Constant.Error_Layout;
     }
-    public @LayoutRes  int getMulLayoutRes(T t)
+    public   int getMulLayoutRes(T t)
     {
         return Constant.Error_Layout;
     }

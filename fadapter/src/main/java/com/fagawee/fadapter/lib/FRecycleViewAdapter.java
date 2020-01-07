@@ -130,12 +130,12 @@ public abstract class FRecycleViewAdapter<T> extends RecyclerView.Adapter<FRecyc
 
 
 
-    public @LayoutRes
+
     int getLayoutRes()
     {
         return Constant.Error_Layout;
     }
-    public @LayoutRes  int getMulLayoutRes(T t)
+    public  int getMulLayoutRes(T t)
     {
         return Constant.Error_Layout;
     }
